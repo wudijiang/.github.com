@@ -17,6 +17,9 @@
         a {
             display: block;
         }
+        .btn {
+            width: 230px; height : 80px; background: blue;
+        }
         
         </style>
         </head>
@@ -24,9 +27,10 @@
     
     <script language="javascript">
         
-<!--        window.onload=function(){-->
-<!--            document.documentElement.style.webkitTouchCallout='none';-->
-<!--        };-->
+
+function add (){
+    window.location("http://api.busi.inke.com/open_app.html?user=4995273&pname=record&isappinstalled=&share_from=&record=1479634837906079");
+}
     </script>
     <body>
         
@@ -38,5 +42,11 @@
         
         <a style="font-size: 90px; width: 380px; height: 100px; line-height: 100px;color: red" href="http://api.busi.inke.com/open_app.html?user=4995273&pname=record&isappinstalled=&share_from=&record=1479634837906079">映客</a>
         
+        <button class = "btn" onClick="window.location.href='http://api.busi.inke.com/open_app.html?user=4995273&pname=record&isappinstalled=&share_from=&record=147963483790607'" > 映客btn</button>
+        <button class = "btn" onClick="window.location.href='http://www.jianshu.com/p/045709749313'" > 简书btn</button>
         </body>
+      <script>
+          
+        </script>
+    
 </html>
